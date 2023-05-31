@@ -1,3 +1,9 @@
+gbp-gha-test (0.1.1) unstable; urgency=medium
+
+  * [gha] native has a different versions format
+
+ -- dionysius <dragon.dionysius@gmail.com>  Wed, 31 May 2023 17:03:30 +0200
+
 gbp-gha-test (0.1.0) unstable; urgency=medium
 
   * init
