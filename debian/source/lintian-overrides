@@ -1,0 +1,2 @@
+# due to flexibility in backporting, can't fullfill every state of distros
+gbp-gha-test source: newer-standards-version

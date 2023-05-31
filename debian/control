@@ -1,0 +1,21 @@
+Source: gbp-gha-test
+Section: misc
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Maintainer: dionysius <dragon.dionysius@gmail.com>
+Standards-Version: 4.6.1
+Vcs-Git: https://github.com/dionysius/gbp-gha-test-deb.git
+Vcs-Browser: https://github.com/dionysius/gbp-gha-test
+Homepage: https://github.com/dionysius/gbp-gha-test
+Rules-Requires-Root: no
+
+Package: gbp-gha-test
+Architecture: all
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Test package for the github actions workflow
+ Small test package to test and develop the gibhub actions workflow which are
+ based on git-buildpackage.
+ .
+ This package contains nothing
