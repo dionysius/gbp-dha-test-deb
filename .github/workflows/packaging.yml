@@ -22,7 +22,7 @@ jobs:
     secrets:
       GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
   # build-qemu:
-  #   uses: dionysius/gbp-gha/.github/workflows/gbp-qemu.yml@main
+  #   uses: dionysius/gbp-gha/.github/workflows/gbp-qemu.yml@devel
   #   with:
   #     # https://github.com/orgs/community/discussions/26671
   #     DEBFULLNAME: dionysius (github-actions)
@@ -40,4 +40,4 @@ jobs:
   release:
     if: startsWith(github.event.ref, 'refs/tags/debian')
     needs: [build-native]
-    uses: dionysius/gbp-gha/.github/workflows/release.yml@main
+    uses: dionysius/gbp-gha/.github/workflows/release.yml@devel
