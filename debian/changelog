@@ -1,3 +1,9 @@
+gbp-gha-test (0.2.1) unstable; urgency=medium
+
+  * another one
+
+ -- Denis Manente <denis.manente@automatic-server.com>  Fri, 02 Jun 2023 12:18:06 +0200
+
 gbp-gha-test (0.2.0) unstable; urgency=medium
 
   * reuse this version and tag accordingly
