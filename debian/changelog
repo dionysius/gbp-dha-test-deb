@@ -1,8 +1,14 @@
+gbp-gha-test (0.2.2) unstable; urgency=medium
+
+  * another one
+
+ -- dionysius <dragon.dionysius@gmail.com>  Sun, 19 May 2024 22:22:13 +0200
+
 gbp-gha-test (0.2.1) unstable; urgency=medium
 
   * another one
 
- -- Denis Manente <denis.manente@automatic-server.com>  Fri, 02 Jun 2023 12:18:06 +0200
+ -- dionysius <dragon.dionysius@gmail.com>  Fri, 02 Jun 2023 12:18:06 +0200
 
 gbp-gha-test (0.2.0) unstable; urgency=medium
 
